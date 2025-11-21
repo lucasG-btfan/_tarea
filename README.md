@@ -1,10 +1,17 @@
 # _tarea
-Este Proyeccto se utiliza para realizar una agenda de tareas, utilizando Java, Spring Boot, Maven, y Lombok.
+Este Proyeccto se utiliza para realizar una agenda de tareas, puedes administrar las tareas con diferentes niveles de prioridad. Existe perfil de desarrolo y perfil de producción
+
+# Tecnologías Utilizadas
+- **Java 21**
+- **Spring Boot 3.2.5**
+- **Maven** (Gestor de dependencias)
+- **Lombok** (Generación de código)
+- **Spring Profiles** (Gestión de entornos)
 
 # Como cambiar de perfil
 1)Para utilizar la app como dev ingrese al archivo application.properties 
 2) modifica para que el profile actvio sea igual a dev spring.profiles.active=dev
-3) Para poder cambiarlo a perfil producion cambia spring.profiles.active=prod
+3) Para poder cambiarlo a perfil producción cambia spring.profiles.active=prod
 
 # Pasos para utilizar el proyecto
 Al seleccionar TareasApplication (main) ejecute el programa
@@ -27,3 +34,21 @@ Maven requiere configuración explícita para los annotation processors, a difer
 2. Habilitar "Obtain processors from project classpath"
 3. Agregar Lombok manualmente al classpath del IDE cuando fue solicitado (en mi caso solo funciono agregarlo manualmente al classpath)
 
+### Prerrequisitos
+- Java 21 o superior
+- Maven 3.6+ 
+- IntelliJ IDEA (recomendado) o otro IDE
+
+### Clonar y Ejecutar
+```bash
+# 1. Clonar el proyecto
+git clone [url-del-repositorio]
+
+# 2. Navegar al directorio
+cd tareas
+
+# 3. Compilar el proyecto
+mvn clean compile
+
+# 4. Ejecutar la aplicación
+mvn spring-boot:run
