@@ -39,6 +39,9 @@ Maven requiere configuración explícita para los annotation processors, a difer
 - Maven 3.6+ 
 - IntelliJ IDEA (recomendado) o otro IDE
 
+# Las capturas de Pantallas
+Las capturas estan nombradas en la manera del cual hay que ver los
+
 ### Clonar y Ejecutar
 ```bash
 # 1. Clonar el proyecto
